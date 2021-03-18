@@ -1,0 +1,6 @@
+Nomes de classe começam por convenção com letra maiúscula, enquanto de pacotes começam com letra minúscula.
+Tipos primitivo como int e String definem o tipo de uma variável quando ela é declarada.
+Comentários são trechos de texto no código que não influenciam em nada nele.
+A operação resto (%) retorna o resto da divisão entre dois números.
+Operadores de comparação retornam um valor do tipo boolean ao comparar duas variáveis, retornando true se forem iguais e false se diferentes.
+Numa condição, pode-se usar operadores lógicos para acrescentar mais condições simultamente.

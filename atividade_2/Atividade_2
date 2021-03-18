@@ -1,0 +1,20 @@
+
+Ex. 2:
+//a)500*8 +1000*4 + 250*8 + 250*2 bytes = 10500 bytes = 10.5KB
+
+
+Ex. 3:
+a)float
+b)long
+c)boolean
+d)double
+
+
+Ex. 4:
+a) false
+b) Erro de comparação entre variável do tipo int com variável do tipo String, não é possível fazer tal comparação.
+
+Ex. 5:
+a) true
+b) true
+c) true
