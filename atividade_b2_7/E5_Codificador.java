@@ -27,7 +27,7 @@ public class E5_Codificador {
 	void limparString() {
 		fraseCodificar = "";
 	}
-	static void codificar() {
+	void codificar() {
 	        String stringEntrada = fraseCodificar;
 	        System.out.println("Frase inicial: "+fraseCodificar);
 
@@ -104,14 +104,14 @@ public class E5_Codificador {
 //	        System.out.format("Frase inicial foi: '%s'\n", stringEntrada);
 
 	        if (fraseParaCodificar.isEmpty()) {
-	            System.out.println("Frase para codificar � vazia.\n");
+	            System.out.println("Frase para codificar � vazia.\n");
 	        } else {
 //	            System.out.format("Frase para codificar é: '%s'\n", fraseParaCodificar);
 //	            System.out.format("Frase codificada é: '%s'\n", fraseCodificada);
 	        }
 	}
 	
-	static void decodificar() {
+	void decodificar() {
 //		 System.out.println("Frase: ");
 	        String stringEntrada = fraseCodificada;
 
@@ -193,8 +193,8 @@ public class E5_Codificador {
 	        }
 	}
 	
-	static String getStringCodificada(){return fraseCodificada;}
-	static String getStringDecodificada(){return fraseDecodificada;}
+	String getStringCodificada(){return fraseCodificada;}
+	String getStringDecodificada(){return fraseDecodificada;}
 	
 	 static final String ALFABETO = "abcdefghijklmnopqrstuvwxyz";
 	    //deslocamento dos caracteres. é possivel modificar o numero dos caracteres de deslocamento

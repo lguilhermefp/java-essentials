@@ -1,4 +1,4 @@
-//Fiz sem usar os construtores com excessão da classe Secretário, pois vi que era pra usar depois
+//Fiz sem usar os construtores com excessï¿½o da classe Secretï¿½rio, pois vi que era pra usar depois
 package atividade_b2_7;
 
 import java.util.Calendar;
@@ -13,8 +13,8 @@ public class E4_Teste extends E4_Pessoa {
 		pessoa.setNumeroTelefone("1117777000");
 		pessoa.setEmail("aninha_crazylouca10@gotica.com");
 		System.out.println("Nome: "+pessoa.getNome());
-		System.out.println("Endereço: "+pessoa.getEndereco());
-		System.out.println("Número de Telefone: "+pessoa.getNumeroTelefone());
+		System.out.println("Endereco: "+pessoa.getEndereco());
+		System.out.println("Numero de Telefone: "+pessoa.getNumeroTelefone());
 		System.out.println("Email: "+pessoa.getEmail()+"\n");
 		
 		E4_Funcionario funcionario = new E4_Funcionario();
@@ -27,12 +27,12 @@ public class E4_Teste extends E4_Pessoa {
 		funcionario.setDataContratacao(Calendar.getInstance());
 		
 		System.out.println("Nome: "+funcionario.getNome());
-		System.out.println("Endereço: "+funcionario.getEndereco());
-		System.out.println("Número de Telefone: "+funcionario.getNumeroTelefone());
+		System.out.println("Endereco: "+funcionario.getEndereco());
+		System.out.println("Numero de Telefone: "+funcionario.getNumeroTelefone());
 		System.out.println("Email: "+funcionario.getEmail());
 		System.out.println("Sala: "+funcionario.getSala());
-		System.out.println("Salário: "+funcionario.getSalario());
-		System.out.println("Data de Contratação: "+funcionario.getDataContratacao().getTime()+"\n");
+		System.out.println("Salario: "+funcionario.getSalario());
+		System.out.println("Data de Contratacao: "+funcionario.getDataContratacao().getTime()+"\n");
 		
 		E4_Estudante estudante = new E4_Estudante();
 		estudante.setNome("Luisinho da ZS");
@@ -42,8 +42,8 @@ public class E4_Teste extends E4_Pessoa {
 		estudante.setAno(2011);
 		
 		System.out.println("Nome: "+estudante.getNome());
-		System.out.println("Endereço: "+estudante.getEndereco());
-		System.out.println("Número de Telefone: "+estudante.getNumeroTelefone());
+		System.out.println("Endereco: "+estudante.getEndereco());
+		System.out.println("Numero de Telefone: "+estudante.getNumeroTelefone());
 		System.out.println("Email: "+estudante.getEmail());
 		System.out.println("Ano: "+estudante.getAno()+"\n");
 		
@@ -55,21 +55,21 @@ public class E4_Teste extends E4_Pessoa {
 		docente.setSala(41);
 		docente.setSalario(20000);
 		docente.setDataContratacao(Calendar.getInstance());
-		docente.setHorarioTrabalho("9h às 18h");
-		docente.setTitulação("Fiscal de Serviços Gerais");
+		docente.setHorarioTrabalho("9h as 18h");
+		docente.setTitulacao("Fiscal de Serviï¿½os Gerais");
 		
 		System.out.println("Nome: "+docente.getNome());
-		System.out.println("Endereço: "+docente.getEndereco());
-		System.out.println("Número de Telefone: "+docente.getNumeroTelefone());
+		System.out.println("Endereco: "+docente.getEndereco());
+		System.out.println("Numero de Telefone: "+docente.getNumeroTelefone());
 		System.out.println("Email: "+docente.getEmail());
 		System.out.println("Sala: "+docente.getSala());
-		System.out.println("Salário: "+docente.getSalario());
-		System.out.println("Data de Contratação: "+docente.getDataContratacao().getTime());
-		System.out.println("Horário de trabalho: "+docente.getHorarioTrabalho());
-		System.out.println("Titulação: "+docente.getTitulação()+"\n");
+		System.out.println("Salario: "+docente.getSalario());
+		System.out.println("Data de Contratacao: "+docente.getDataContratacao().getTime());
+		System.out.println("Horario de trabalho: "+docente.getHorarioTrabalho());
+		System.out.println("Titulacao: "+docente.getTitulacao()+"\n");
 		
 		E4_Secretario secretario = new E4_Secretario("Tomas", "Rua Antonio Martins, 22", "2030000000",
-				"tomas@uol.com", 12, 65000d, "Secretario da Coordenação de Engenharia");
+				"tomas@uol.com", 12, 65000d, "Secretario da Coordenaï¿½ï¿½o de Engenharia");
 
 		secretario.resumo();
 	}

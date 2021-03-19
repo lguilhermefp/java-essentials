@@ -1,8 +1,8 @@
 package atividade_4;
 
-public class Questão01a {
+public class Questao01a {
 
-	Questão01a() {
+	Questao01a() {
 		
 		int luxes = 0;
 		boolean lampada = false;
@@ -11,18 +11,18 @@ public class Questão01a {
 		for(luxes=0; luxes<200; luxes+=200) {
 			
 			lampada = true;
-			if(lampada == false) {estado = ". A lâmpada está desligada.";}
-			if(lampada == true) {estado = ". A lâmpada está ligada.";}
+			if(lampada == false) {estado = ". A lampada esta desligada.";}
+			if(lampada == true) {estado = ". A lampada esta ligada.";}
 			System.out.println("luxes: "+ luxes + estado);
 			try { Thread.sleep (60000); } catch (InterruptedException ex) {}
 		}
 		lampada = false;
-		if(lampada == false) {estado = ". A lâmpada está desligada.";}
-		if(lampada == true) {estado = ". A lâmpada está ligada.";}
+		if(lampada == false) {estado = ". A lampada esta desligada.";}
+		if(lampada == true) {estado = ". A lampada esta ligada.";}
 		System.out.println("luxes: "+ luxes + estado);
 	}
 	
 	public static void main(String[] args) {
-		new Questão01a();
+		new Questao01a();
 	}
 }

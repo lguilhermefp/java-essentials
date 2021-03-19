@@ -12,7 +12,7 @@ d)double
 
 Ex. 4:
 a) false
-b) Erro de comparação entre variável do tipo int com variável do tipo String, não é possível fazer tal comparação.
+b) Erro de comparacao entre variavel do tipo int com variavel do tipo String, nao e possivel fazer tal comparacao.
 
 Ex. 5:
 a) true
